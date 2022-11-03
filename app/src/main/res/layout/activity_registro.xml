@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegistroActivity">
+
+    <EditText
+        android:id="@+id/ediCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:ems="10"
+        android:hint="@string/emailRegistro"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediApellido" />
+
+    <EditText
+        android:id="@+id/ediClave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:ems="10"
+        android:hint="@string/contraseñaRegistro"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediCorreo" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="75dp"
+        android:background="#008000"
+        android:text="@string/btnRegistro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediClave" />
+
+    <Button
+        android:id="@+id/ediBtnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:background="#AA1106"
+        android:text="@string/cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizar" />
+
+    <EditText
+        android:id="@+id/ediNombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:ems="10"
+        android:hint="@string/nombreRegistro"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ediApellido"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:ems="10"
+        android:hint="@string/apellidoRegistro"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediNombre" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/tituloRegistro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

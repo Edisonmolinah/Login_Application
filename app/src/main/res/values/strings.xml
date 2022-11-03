@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Login_Application</string>
+    <string name="nombreRegistro">Nombres</string>
+    <string name="apellidoRegistro">Apellidos</string>
+    <string name="telefonoRegistro">Telefono</string>
+    <string name="emailRegistro">Email</string>
+    <string name="contraseñaRegistro">Contraseña</string>
+    <string name="rcpntraseñaRegistro">Repita su contraseña</string>
+    <string name="fechaNacimientoRegistro">Fecha de nacimiento DD/MM/AAAA</string>
+    <string name="emailLogin">Ingrese su Email</string>
+    <string name="contraseñaLogin">INgrese su contraseña</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="tituloRegistro">Por favor ingrese toda la informacion</string>
+    <string name="btnIngresarLogin">Ingresar</string>
+    <string name="tituloLogin">LogIn</string>
+    <string name="icono_login">Icono Login</string>
+    <string name="bienvenido">¡ Bienvenido !</string>
+    <string name="cancelar">CANCELAR</string>
+
+
+</resources>
